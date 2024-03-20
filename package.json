@@ -1,0 +1,26 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "express typescript mongoose boilerplate",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajeshSR0809/express-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose",
+    "typescript"
+  ],
+  "author": "Rajesh SR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajeshSR0809/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/RajeshSR0809/express-boilerplate#readme"
+}
