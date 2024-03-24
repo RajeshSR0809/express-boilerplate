@@ -2,14 +2,14 @@
   "name": "express-boilerplate",
   "version": "1.0.0",
   "description": "express typescript mongoose boilerplate",
-  "main": "dist/index.ts",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "compile": "tsc --build",
     "compile:watch": "tsc --build --watch",
     "pre:dev": "cross-env NODE_ENV=development nodemon --inspect dist/index.js",
     "dev": "concurrently --kill-others \"npm:compile:watch\" \"npm:pre:dev\"",
-    "dev-inspect": "nodemon --inspect src/index.ts" 
+    "dev-inspect": "nodemon --inspect ./src/index.ts" 
   },
   "repository": {
     "type": "git",
