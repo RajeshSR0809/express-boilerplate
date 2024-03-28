@@ -4,7 +4,8 @@ const app: Express = express();
 const port = process.env['PORT'] || 3000;
 
 app.get("/", (_req: Request, res: Response) => {
-  res.send("Express + TypeScript Server");
+  let str = "Express + TypeScript Server v14"
+  res.send(str);
 });
 
 app.listen(port, () => {
